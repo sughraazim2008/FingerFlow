@@ -30,7 +30,7 @@ pyautogui.PAUSE = 0  # no artificial delay between calls
  
  
 # ──────────────────────────────────────────────
-# CLI
+#  - Command-line arguments to communicate with the os of the computer
 # ──────────────────────────────────────────────
 def get_args():
     parser = argparse.ArgumentParser(description="Gesture Mouse Controller")
