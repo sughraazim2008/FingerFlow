@@ -1,8 +1,5 @@
 """
-gesture_mouse.py
-----------------
-Control your mouse with hand gestures via webcam.
- 
+
 Gestures (either hand unless noted):
   • Index finger up       → move cursor
   • Index + Thumb pinch   → right-click  (once per pinch)
@@ -10,8 +7,6 @@ Gestures (either hand unless noted):
   • All 5 fingers closed  → close / quit the program
   • 3 fingers swiped L/R  → switch virtual desktop (Win: Ctrl+Win+Arrow)
  
-Run:
-    python gesture_mouse.py [--device 0] [--width 960] [--height 540]
 """
  
 import argparse
